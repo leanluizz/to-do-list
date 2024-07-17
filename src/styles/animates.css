@@ -1,0 +1,31 @@
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00ff6a }
+  }
+  @keyframes writing {
+    from{ width: 0%; }
+    to { width: 75%; }
+  }
+  @keyframes writingTwo {
+    from{ width: 0%; }
+    to { width: 50%; }
+  }
+  @keyframes writingThree {
+    from{ width: 0%; }
+    to { width: 25%; }
+  }
+  @keyframes writingFour {
+    from{ width: 0%; }
+    to { width: 15%; }
+  }
+  @keyframes writingFive {
+    from{ width: 0%; }
+    to { width: 10%; }
+  }

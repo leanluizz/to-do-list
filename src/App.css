@@ -1,0 +1,121 @@
+@import url('../src/styles/animates.css');
+.gradient-text {
+  font-weight: bold;
+  background: linear-gradient(to bottom, #00ff6a, #00000069);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  line-height: 1.2;
+}
+.gradient-text-footer {
+  font-weight: bold;
+  background: linear-gradient(to bottom, #00ff6a, #00000069);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1.2;
+}
+.paragraph-text{
+  background: linear-gradient(to bottom, #00ff6a, #00000069);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Header */
+.typewriter h1 {
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgba(255, 166, 0, 0); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end),blink-caret .5s step-end infinite;
+}
+.alturaSeis{
+  height: 600px;
+}
+@media (max-width: 985px) {
+  section #text-intro{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+  } 
+  div .input-grp{
+    display: flex;
+    width: 100%;
+  }
+}
+#text-intro{
+  width: 25%;
+  text-align: start;
+} 
+.lines{
+  animation: writing 5s infinite;
+}
+.linesTwo{
+  animation: writingTwo 4s infinite;
+}
+.linesThree{
+  animation: writingThree 3s infinite;
+}
+.linesFour{
+  animation: writingFour 2s infinite;
+}
+.linesFive{
+  animation: writingFive 1s infinite;
+}
+.intro{
+  margin-bottom: 20vh;
+}
+.func{
+  cursor: pointer;
+}
+.input-grp{
+  display: flex;
+  width: 25%;
+}
+.list-square{
+  list-style: square;
+}
+.list-circle{
+  list-style: circle;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.text-purple{
+  color: rgba(128, 0, 128, 0.483);
+}
+@media (max-width:1000px) {
+  .space-mobile{
+    margin-top: 50px;
+  } 
+}
+video::-webkit-media-controls {
+  background-color: #00000056;
+}
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+
+#tutorial-titulo {
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer; /* Adiciona um cursor pointer para indicar que é clicável */
+}
+.carousel-control-prev{
+ height: 10px;
+margin-top: 35%;
+}
+.carousel-control-next{
+  height: 10px;
+ margin-top: 35%;
+ }
