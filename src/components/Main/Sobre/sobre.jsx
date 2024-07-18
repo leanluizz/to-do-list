@@ -6,7 +6,7 @@ export default function Sobre () {
         <>
         <div className='overflow-hidden justify-content-around d-lg-flex bg-success mt-5'>
             <div className='p-5'>
-            <h2 className='fw-bold mb-5 text-start'>Este projeto é open-source ou seja de código aberto se caso você se interessou pela ideia ou encontrou algum possível bug?</h2>
+            <h2 className='fw-bold mb-5 text-start'>Este projeto é open-source ou seja de código aberto se caso você se interessou pela ideia ou encontrou algum possível bug.</h2>
             <h2 className='fw-bold mb-5 text-start'>Entre em contato comigo ou faça uma PR (pull request) pro projeto.</h2>
             <div className='d-flex align-items-center'>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" className="me-2 bi bi-envelope-arrow-up-fill" viewBox="0 0 16 16">
